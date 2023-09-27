@@ -1,0 +1,54 @@
+{
+    "name": "CameraControlsInputSystem",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "8b6b307c-9b5b-4b31-87b3-b993c5326659",
+            "actions": [
+                {
+                    "name": "LeftClick",
+                    "type": "Button",
+                    "id": "6cedea06-3b87-4433-b8b7-d96626d27caf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CursorMovement",
+                    "type": "Value",
+                    "id": "97d911cc-7072-4e3c-b206-8cdb8d24fd7b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9ef3c6d2-1d8c-465f-894e-0dea623a9462",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d70ebf9-68cd-4b19-987f-8907d144615b",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CursorMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
