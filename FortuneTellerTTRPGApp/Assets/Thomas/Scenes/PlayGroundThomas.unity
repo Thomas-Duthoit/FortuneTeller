@@ -1087,6 +1087,9 @@ MonoBehaviour:
   cameraSizeTarget: 3
   drag: 0
   resettingCameraPos: 0
+  scrollSpeed: 10
+  dragSpeed: 15
+  cameraResetSpeed: 3
 --- !u!1001 &1830624521
 PrefabInstance:
   m_ObjectHideFlags: 0
