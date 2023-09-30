@@ -12,6 +12,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float scrollSpeed = 10.0f;
     [SerializeField] private float dragSpeed = 15.0f;
     [SerializeField] private float cameraResetSpeed = 3.0f;
+    [Space(10)]
     #endregion
     #region Private
     private float cameraSizeTarget = 3.0f;
